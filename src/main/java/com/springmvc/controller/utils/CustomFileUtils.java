@@ -20,7 +20,7 @@ public class CustomFileUtils {
     }
 
     private static void list(File file, ArrayList<String> listFile) {
-        if (file.isDirectory())//判断file是否是目录
+        if (file.isDirectory())//判断file是否是目录.
         {
             File[] lists = file.listFiles();
             if (lists != null) {
